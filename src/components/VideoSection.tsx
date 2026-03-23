@@ -41,7 +41,6 @@ export default function VideoSection() {
             <div
               className="relative aspect-[9/16] rounded-sm overflow-hidden ring-1 shadow-2xl"
               style={{
-                ringColor: 'var(--color-accent)',
                 boxShadow: '0 25px 60px -12px rgba(0, 0, 0, 0.6)',
               }}
             >
