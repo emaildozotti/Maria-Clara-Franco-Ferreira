@@ -26,7 +26,7 @@ export default function About() {
 
               {/* Antes */}
               <p
-                className="text-base md:text-lg leading-relaxed font-light mb-6"
+                className="text-xl md:text-2xl leading-relaxed font-light mb-6"
                 style={{ color: 'var(--color-text)', opacity: 0.85 }}
               >
                 Eu vim do Serviço Social. Passei anos tentando ajudar pessoas com soluções externas. Programas, encaminhamentos, orientações. E percebi que não era suficiente. As mesmas pessoas voltavam com os mesmos problemas. Algo mais profundo precisava ser acessado.
@@ -34,7 +34,7 @@ export default function About() {
 
               {/* Virada */}
               <p
-                className="text-base md:text-lg leading-relaxed font-light mb-6"
+                className="text-xl md:text-2xl leading-relaxed font-light mb-6"
                 style={{ color: 'var(--color-text)', opacity: 0.85 }}
               >
                 A pandemia foi o catalisador. Quando o mundo parou, eu olhei para dentro. Descobri as Terapias Integrativas, a Radiônica, a ciência das frequências. E entendi que o ser humano é um sistema energético. Que as soluções externas não funcionam quando o campo interno está bloqueado.
@@ -42,7 +42,7 @@ export default function About() {
 
               {/* Hoje */}
               <p
-                className="text-base md:text-lg leading-relaxed font-light mb-10"
+                className="text-xl md:text-2xl leading-relaxed font-light mb-10"
                 style={{ color: 'var(--color-text)', opacity: 0.85 }}
               >
                 Hoje, eu combino a sensibilidade de quem trabalhou com pessoas em vulnerabilidade por anos com o rigor técnico da Radiônica. Eu não sou mais uma terapeuta holística. Eu sou a profissional que trouxe métrica para o invisível.
@@ -81,7 +81,7 @@ export default function About() {
                 <div
                   className="relative aspect-[3/4] overflow-hidden rounded-sm"
                   style={{
-                    border: '2px solid #C5A55A',
+                    border: '2px solid #FFBD59',
                     boxShadow: '0 20px 40px -8px rgba(0, 0, 0, 0.15)',
                   }}
                 >
@@ -97,7 +97,7 @@ export default function About() {
                         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
                         svg.setAttribute('viewBox', '0 0 600 800')
                         svg.setAttribute('class', 'w-full h-full')
-                        svg.innerHTML = '<rect fill="#1A365D" width="600" height="800"/><text fill="#C5A55A" font-size="28" x="300" y="400" text-anchor="middle" font-family="serif">Maria Clara</text>'
+                        svg.innerHTML = '<rect fill="#CB6CE6" width="600" height="800"/><text fill="#FFBD59" font-size="28" x="300" y="400" text-anchor="middle" font-family="serif">Maria Clara</text>'
                         parent.appendChild(svg)
                       }
                     }}
@@ -112,7 +112,7 @@ export default function About() {
         <FadeIn delay={0.3}>
           <div className="text-center mt-20">
             <p
-              className="text-lg md:text-xl italic font-light"
+              className="text-xl md:text-2xl italic font-light"
               style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.7 }}
             >
               E como funciona, na prática, o processo comigo?

@@ -131,7 +131,7 @@ export default function Testimonials() {
             <button
               onClick={prevTestimonial}
               className="w-12 h-12 rounded-full flex items-center justify-center border transition-all duration-300 hover:scale-105"
-              style={{ borderColor: 'rgba(197, 165, 90, 0.3)', color: 'var(--color-accent)' }}
+              style={{ borderColor: 'rgba(255, 189, 89, 0.3)', color: 'var(--color-accent)' }}
               aria-label="Depoimento Anterior"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -155,7 +155,7 @@ export default function Testimonials() {
             <button
               onClick={nextTestimonial}
               className="w-12 h-12 rounded-full flex items-center justify-center border transition-all duration-300 hover:scale-105"
-              style={{ borderColor: 'rgba(197, 165, 90, 0.3)', color: 'var(--color-accent)' }}
+              style={{ borderColor: 'rgba(255, 189, 89, 0.3)', color: 'var(--color-accent)' }}
               aria-label="Próximo Depoimento"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">

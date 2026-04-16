@@ -59,7 +59,7 @@ export default function Method() {
               </span>
             </h2>
             <p
-              className="text-base md:text-lg leading-relaxed font-light max-w-2xl"
+              className="text-xl md:text-2xl leading-relaxed font-light max-w-2xl"
               style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.8 }}
             >
               Eu não prometo cura milagrosa. A cura é um processo de busca mútua: eu entro com a técnica, você entra com a presença. O que eu posso garantir é que vou encontrar o que está travando e calibrar seu campo para que a vida volte a fluir.
@@ -99,7 +99,7 @@ export default function Method() {
                     {pillar.title}
                   </h3>
                   <p
-                    className="text-base leading-relaxed font-light"
+                    className="text-lg leading-relaxed font-light"
                     style={{ color: 'var(--color-text)', opacity: 0.75 }}
                   >
                     {pillar.text}
@@ -117,7 +117,7 @@ export default function Method() {
             style={{ borderTop: '1px solid rgba(13, 27, 62, 0.08)' }}
           >
             <p
-              className="text-sm md:text-base leading-relaxed font-light"
+              className="text-base md:text-lg leading-relaxed font-light"
               style={{ color: 'var(--color-text)', opacity: 0.65 }}
             >
               Não prometo milagres. Não substituo tratamento médico. Não atendo terceiros sem autorização. Respeito absoluto ao seu livre-arbítrio. A transformação exige que você esteja presente e comprometida com o processo.
@@ -129,7 +129,7 @@ export default function Method() {
         <FadeIn delay={0.3}>
           <div className="text-center mt-16">
             <p
-              className="text-lg md:text-xl italic font-light mb-8"
+              className="text-xl md:text-2xl italic font-light mb-8"
               style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.8 }}
             >
               Por que eu escolhi esse caminho? Porque vivi a transformação primeiro.

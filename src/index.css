@@ -5,15 +5,15 @@
    Paleta: Índigo Profundo + Dourado Frequencial + Névoa Celestial
    ============================================================ */
 @theme {
-  /* Cores - Ciência das Frequências */
-  --color-primary: #1A365D;
-  --color-primary-hover: #0D1B3E;
-  --color-dark: #0D1B3E;
-  --color-bg-warm: #E8EDF5;
-  --color-bg-light: #F5F7FA;
-  --color-accent: #C5A55A;
-  --color-text: #0D1B3E;
-  --color-accent-blue: #4A6FA5;
+  /* Cores - Paleta Lilás + Âmbar */
+  --color-primary: #CB6CE6;
+  --color-primary-hover: #A94CC6;
+  --color-dark: #3D1A4A;
+  --color-bg-warm: #EEE1ED;
+  --color-bg-light: #F8F2F7;
+  --color-accent: #FFBD59;
+  --color-text: #2D1B33;
+  --color-accent-blue: #D9A0E8;
 
   /* Fontes - Tipografia Editorial */
   --font-display: "Cormorant Garamond", Georgia, serif;
@@ -153,27 +153,27 @@
 }
 
 .btn-shimmer {
-  background-color: #1A365D;
-  color: #C5A55A;
-  border-color: rgba(197, 165, 90, 0.3);
+  background-color: #CB6CE6;
+  color: #FFBD59;
+  border-color: rgba(255, 189, 89, 0.3);
 }
 
 .btn-shimmer-light {
   background-color: transparent;
-  color: #0D1B3E;
+  color: #3D1A4A;
   border-color: rgba(13, 27, 62, 0.2);
 }
 
 .btn-shimmer:hover {
-  background-color: #0D1B3E;
-  border-color: rgba(197, 165, 90, 0.6);
+  background-color: #3D1A4A;
+  border-color: rgba(255, 189, 89, 0.6);
   color: #F5F7FA;
 }
 
 .btn-shimmer-light:hover {
-  background-color: #1A365D;
-  border-color: rgba(197, 165, 90, 0.3);
-  color: #C5A55A;
+  background-color: #CB6CE6;
+  border-color: rgba(255, 189, 89, 0.3);
+  color: #FFBD59;
 }
 
 .btn-shimmer::after,
@@ -183,7 +183,7 @@
   inset: 0;
   background: linear-gradient(105deg,
       transparent 30%,
-      rgba(197, 165, 90, 0.15) 50%,
+      rgba(255, 189, 89, 0.15) 50%,
       transparent 70%);
   transform: translateX(-100%) skewX(-15deg);
   animation: shimmer-sweep 4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
@@ -199,16 +199,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0D1B3E;
+  background: #3D1A4A;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #C5A55A;
+  background: #FFBD59;
   border-radius: 0px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D4B76A;
+  background: #FFCF80;
 }
 
 /* ============================================================
@@ -221,8 +221,8 @@ html {
 }
 
 body {
-  background-color: #E8EDF5;
-  color: #0D1B3E;
+  background-color: #EEE1ED;
+  color: #3D1A4A;
   font-family: "Inter", system-ui, sans-serif;
   line-height: 1.7;
   overflow-x: hidden;
@@ -277,7 +277,7 @@ img {
 .line-separator {
   width: 1px;
   height: 60px;
-  background-color: rgba(197, 165, 90, 0.4);
+  background-color: rgba(255, 189, 89, 0.4);
   margin: 0 auto;
 }
 

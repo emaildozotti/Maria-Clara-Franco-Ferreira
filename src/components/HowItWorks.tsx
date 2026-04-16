@@ -1,4 +1,4 @@
-// DECISÃO CRIATIVA: Fundo Safira Suave (#4A6FA5) para diferenciação visual.
+// DECISÃO CRIATIVA: Fundo Safira Suave (#D9A0E8) para diferenciação visual.
 // Timeline vertical com 3 passos do processo terapêutico. Desmistificação incluída.
 
 import { FadeIn } from '../App'
@@ -26,7 +26,7 @@ export default function HowItWorks() {
     <section
       id="how"
       className="relative overflow-hidden section-padding-lg"
-      style={{ backgroundColor: '#4A6FA5' }}
+      style={{ backgroundColor: '#D9A0E8' }}
     >
       <div className="container-ultra relative z-10">
 
@@ -85,7 +85,7 @@ export default function HowItWorks() {
                 </h3>
 
                 <p
-                  className="text-base leading-relaxed font-light"
+                  className="text-lg leading-relaxed font-light"
                   style={{ color: 'var(--color-bg-light)', opacity: 0.8 }}
                 >
                   {step.text}
@@ -105,7 +105,7 @@ export default function HowItWorks() {
             }}
           >
             <p
-              className="text-sm md:text-base leading-relaxed font-light italic"
+              className="text-base md:text-lg leading-relaxed font-light italic"
               style={{ color: 'var(--color-bg-light)', opacity: 0.85 }}
             >
               "Radiônica não é ritual. Não envolve crenças, dogmas ou qualquer prática que fira seu livre-arbítrio. É uma técnica de acesso e ajuste do campo energético humano, usada por profissionais que entendem que o ser humano é, antes de tudo, um sistema de frequências."
@@ -116,7 +116,7 @@ export default function HowItWorks() {
         {/* Remove ansiedade */}
         <FadeIn delay={0.4}>
           <p
-            className="text-center text-sm md:text-base font-light mt-12"
+            className="text-center text-base md:text-lg font-light mt-12"
             style={{ color: 'var(--color-bg-light)', opacity: 0.6 }}
           >
             Você não precisa acreditar para funcionar. Precisa estar presente.

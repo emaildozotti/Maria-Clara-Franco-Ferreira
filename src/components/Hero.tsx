@@ -1,4 +1,4 @@
-// DECISÃO CRIATIVA: Split-Layout Editorial (Opção A). Fundo Índigo Profundo (#1A365D).
+// DECISÃO CRIATIVA: Split-Layout Editorial (Opção A). Fundo Índigo Profundo (#CB6CE6).
 // Aurora blobs em azul/dourado. Número 350 Hz destacado em dourado como diferenciador.
 
 import { motion } from 'motion/react'
@@ -38,7 +38,7 @@ export default function Hero() {
       <div
         className="blur-orb w-[600px] h-[600px] -top-32 -left-40"
         style={{
-          backgroundColor: '#1A365D55',
+          backgroundColor: '#CB6CE655',
           animation: 'aurora-1 18s ease-in-out infinite',
         }}
         aria-hidden="true"
@@ -46,7 +46,7 @@ export default function Hero() {
       <div
         className="blur-orb w-[500px] h-[500px] top-1/2 -right-32"
         style={{
-          backgroundColor: '#C5A55A33',
+          backgroundColor: '#FFBD5933',
           animation: 'aurora-2 22s ease-in-out infinite',
           animationDelay: '2s',
         }}
@@ -55,7 +55,7 @@ export default function Hero() {
       <div
         className="blur-orb w-[400px] h-[400px] -bottom-24 left-1/3"
         style={{
-          backgroundColor: '#4A6FA522',
+          backgroundColor: '#D9A0E822',
           animation: 'aurora-3 26s ease-in-out infinite',
           animationDelay: '4s',
         }}
@@ -100,7 +100,7 @@ export default function Hero() {
           {/* Subtítulo */}
           <FadeIn delay={0.30}>
             <p
-              className="max-w-xl text-lg md:text-xl leading-relaxed text-white/70 font-light"
+              className="max-w-xl text-xl md:text-2xl leading-relaxed text-white/70 font-light"
               style={{ fontFamily: 'var(--font-sub)' }}
             >
               Relacionamentos que afundam, dinheiro que some, sonhos que travam no último minuto. Não é azar. Tem{' '}
@@ -128,7 +128,7 @@ export default function Hero() {
             <div
               className="relative aspect-[3/4] overflow-hidden rounded-sm"
               style={{
-                border: '2px solid #C5A55A',
+                border: '2px solid #FFBD59',
                 boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)',
               }}
             >
@@ -146,7 +146,7 @@ export default function Hero() {
                     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
                     svg.setAttribute('viewBox', '0 0 800 1000')
                     svg.setAttribute('class', 'w-full h-full')
-                    svg.innerHTML = '<rect fill="#1A365D" width="800" height="1000"/><text fill="#C5A55A" font-size="32" x="400" y="500" text-anchor="middle" font-family="serif">Maria Clara</text>'
+                    svg.innerHTML = '<rect fill="#CB6CE6" width="800" height="1000"/><text fill="#FFBD59" font-size="32" x="400" y="500" text-anchor="middle" font-family="serif">Maria Clara</text>'
                     parent.appendChild(svg)
                   }
                 }}

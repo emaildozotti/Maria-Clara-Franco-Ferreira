@@ -21,7 +21,7 @@ export default function VideoSection() {
             Assista
           </p>
           <p
-            className="text-lg md:text-xl leading-relaxed font-light"
+            className="text-xl md:text-2xl leading-relaxed font-light"
             style={{
               fontFamily: 'var(--font-sub)',
               color: 'var(--color-bg-light)',
@@ -41,7 +41,7 @@ export default function VideoSection() {
               aspectRatio: '9 / 16',
               borderRadius: '4px',
               overflow: 'hidden',
-              border: '1px solid #C5A55A',
+              border: '1px solid #FFBD59',
               boxShadow: '0 25px 60px -12px rgba(0, 0, 0, 0.6)',
               backgroundColor: '#000',
             }}
@@ -59,7 +59,7 @@ export default function VideoSection() {
         {/* Âncora pós-vídeo */}
         <FadeIn delay={0.4} className="max-w-xl mt-16">
           <p
-            className="text-base md:text-lg leading-relaxed font-light italic"
+            className="text-lg md:text-xl leading-relaxed font-light italic"
             style={{
               fontFamily: 'var(--font-sub)',
               color: 'var(--color-bg-light)',

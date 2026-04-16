@@ -45,7 +45,7 @@ function FAQItem({ faq, isOpen, onToggle }: {
         aria-expanded={isOpen}
       >
         <span
-          className="text-lg md:text-xl font-light leading-snug group-hover:opacity-100 transition-opacity"
+          className="text-xl md:text-2xl font-light leading-snug group-hover:opacity-100 transition-opacity"
           style={{
             fontFamily: 'var(--font-display)',
             color: 'var(--color-text)',
@@ -78,7 +78,7 @@ function FAQItem({ faq, isOpen, onToggle }: {
             style={{ overflow: 'hidden' }}
           >
             <p
-              className="pb-8 pr-12 text-base leading-relaxed font-light"
+              className="pb-8 pr-12 text-lg leading-relaxed font-light"
               style={{
                 fontFamily: 'var(--font-sans)',
                 color: 'var(--color-text)',
