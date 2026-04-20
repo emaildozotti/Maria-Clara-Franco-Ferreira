@@ -4,7 +4,7 @@
 import { motion } from 'motion/react'
 import { FadeIn } from '../App'
 
-const WHATSAPP_URL = 'https://wa.me/5522988393631?text=Oi%2C%20acabei%20de%20vir%20da%20p%C3%A1gina%20da%20Clara%20e%20quero%20agendar%20uma%20consulta.'
+const WHATSAPP_URL = 'https://wa.me/5521972109277?text=Oi%2C%20acabei%20de%20vir%20da%20p%C3%A1gina%20da%20Clara%20e%20quero%20agendar%20uma%20consulta.'
 
 const currentYear = new Date().getFullYear()
 
