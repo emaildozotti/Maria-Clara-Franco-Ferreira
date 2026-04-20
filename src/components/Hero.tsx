@@ -13,10 +13,11 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-primary section-padding"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden section-padding"
+      style={{ backgroundColor: '#3D1A4A' }}
     >
       {/* Header desktop sticky */}
-      <header className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-primary/90 backdrop-blur-sm border-b border-white/5">
+      <header className="hidden md:block fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-white/5" style={{ backgroundColor: 'rgba(61,26,74,0.92)' }}>
         <div className="container-ultra flex items-center justify-between py-4">
           <span
             className="font-display text-lg tracking-tight italic"
