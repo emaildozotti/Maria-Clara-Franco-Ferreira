@@ -21,7 +21,7 @@ export default function About() {
                 className="uppercase tracking-[0.2em] text-[10px] md:text-xs mb-8 font-light"
                 style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.6 }}
               >
-                Sobre Maria Clara
+                Sobre Clara Aguiar
               </p>
 
               {/* Antes */}
@@ -87,7 +87,7 @@ export default function About() {
                 >
                   <img
                     src="/foto-maria-clara-sobre.jpg"
-                    alt="Maria Clara Franco Ferreira"
+                    alt="Clara Aguiar"
                     className="w-full h-full object-cover object-center client-photo"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement
@@ -97,7 +97,7 @@ export default function About() {
                         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
                         svg.setAttribute('viewBox', '0 0 600 800')
                         svg.setAttribute('class', 'w-full h-full')
-                        svg.innerHTML = '<rect fill="#CB6CE6" width="600" height="800"/><text fill="#FFBD59" font-size="28" x="300" y="400" text-anchor="middle" font-family="serif">Maria Clara</text>'
+                        svg.innerHTML = '<rect fill="#CB6CE6" width="600" height="800"/><text fill="#FFBD59" font-size="28" x="300" y="400" text-anchor="middle" font-family="serif">Clara Aguiar</text>'
                         parent.appendChild(svg)
                       }
                     }}

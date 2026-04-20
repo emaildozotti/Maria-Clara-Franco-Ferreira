@@ -4,7 +4,7 @@
 import { motion } from 'motion/react'
 import { FadeIn } from '../App'
 
-const WHATSAPP_URL = 'https://wa.me/5522988393631?text=Ol%C3%A1%20Maria%20Clara%2C%20vi%20sua%20p%C3%A1gina%20e%20quero%20saber%20mais%20sobre%20a%20Limpeza%20de%20Campo%20e%20Calibragem%20Frequencial.%20Meu%20nome%20%C3%A9%20'
+const WHATSAPP_URL = 'https://wa.me/5522988393631?text=Oi%2C%20acabei%20de%20vir%20da%20p%C3%A1gina%20da%20Clara%20e%20quero%20agendar%20uma%20consulta.'
 
 const currentYear = new Date().getFullYear()
 
@@ -35,9 +35,9 @@ export default function Footer() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Fale com Maria Clara e agende sua{' '}
+              Fale com a equipe e agende sua{' '}
               <span className="italic font-light" style={{ color: 'var(--color-accent)' }}>
-                limpeza de campo.
+                consulta com Clara.
               </span>
             </h2>
 
@@ -72,7 +72,7 @@ export default function Footer() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Maria Clara Franco Ferreira
+              Clara Aguiar
             </h3>
             <p
               className="text-xs uppercase tracking-[0.3em]"
@@ -109,7 +109,7 @@ export default function Footer() {
                 opacity: 0.25,
               }}
             >
-              &copy; {currentYear} Maria Clara Franco Ferreira &middot; Todos os direitos reservados
+              &copy; {currentYear} Clara Aguiar &middot; Todos os direitos reservados
             </p>
           </div>
         </FadeIn>

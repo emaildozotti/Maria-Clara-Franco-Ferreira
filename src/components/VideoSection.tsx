@@ -48,7 +48,7 @@ export default function VideoSection() {
           >
             <iframe
               src="https://www.youtube.com/embed/TOGJwI9oAcw"
-              title="VSL Maria Clara Franco Ferreira"
+              title="VSL Clara Aguiar"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               style={{ width: '100%', height: '100%', border: 'none', display: 'block' }}

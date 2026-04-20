@@ -22,7 +22,7 @@ export default function Hero() {
             className="font-display text-lg tracking-tight italic"
             style={{ color: 'var(--color-bg-light)' }}
           >
-            Maria Clara Franco Ferreira
+            Clara Aguiar
           </span>
           <button
             onClick={() => scrollToSection('faq')}
@@ -136,7 +136,7 @@ export default function Hero() {
 
               <img
                 src="/foto-maria-clara.jpg"
-                alt="Maria Clara Franco Ferreira"
+                alt="Clara Aguiar"
                 className="w-full h-full object-cover object-center transition-transform duration-[2s] ease-out hover:scale-105"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement
@@ -146,7 +146,7 @@ export default function Hero() {
                     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
                     svg.setAttribute('viewBox', '0 0 800 1000')
                     svg.setAttribute('class', 'w-full h-full')
-                    svg.innerHTML = '<rect fill="#CB6CE6" width="800" height="1000"/><text fill="#FFBD59" font-size="32" x="400" y="500" text-anchor="middle" font-family="serif">Maria Clara</text>'
+                    svg.innerHTML = '<rect fill="#CB6CE6" width="800" height="1000"/><text fill="#FFBD59" font-size="32" x="400" y="500" text-anchor="middle" font-family="serif">Clara Aguiar</text>'
                     parent.appendChild(svg)
                   }
                 }}

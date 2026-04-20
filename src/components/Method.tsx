@@ -12,18 +12,23 @@ function scrollToSection(id: string) {
 const pillars = [
   {
     num: '01',
-    title: 'Limpeza de Campo via Radiônica',
-    text: 'O primeiro passo é tirar o peso. A Radiônica acessa seu campo energético e remove bloqueios acumulados: emoções negativas, padrões herdados, frequências que não são suas. Não é ritual. É técnica.',
+    title: 'Radiestesia Acessa, Radiônica Corrige',
+    text: 'A Radiestesia acessa seu campo e identifica o que está bloqueado. Com a Radiônica, se corrige o que for necessário. Diagnóstico e ajuste em um só processo.',
   },
   {
     num: '02',
-    title: 'Alinhamento de Chakras e Investigação da Raiz',
-    text: 'Depois de limpar, alinhar. Cada centro energético do corpo conta uma história. Eu investigo qual é o trauma, o padrão mental, a crença que está gerando o bloqueio. Não trato o sintoma. Busco a causa.',
+    title: 'Limpeza de Campo',
+    text: 'Limpeza do campo vibracional via Radiestesia, Radiônica e Energy Healing. Camadas de emoções negativas, padrões herdados e frequências que não são suas — removidas.',
   },
   {
     num: '03',
-    title: 'Calibragem para 350 Hz',
-    text: 'O patamar mínimo. 350 Hz é a frequência da Aceitação e da Prontidão. Abaixo disso, o corpo opera em modo de sobrevivência. Acima, ele começa a cocriar. Eu não trabalho com suposição. Eu calibro. E você sente a diferença.',
+    title: 'Calibragem para Acima de 350 Hz',
+    text: '350 Hz é a frequência da Aceitação e da Prontidão. Abaixo disso, o corpo opera em modo de sobrevivência. A calibragem leva seu campo para um patamar onde a vida começa a fluir.',
+  },
+  {
+    num: '04',
+    title: 'Base Integrativa e Holística',
+    text: 'Descobri as Terapias Integrativas e holísticas e aprendi a combiná-las: a Radiestesia, a Radiônica, a Ciência das Frequências, a Chakroterapia e outras abordagens que se complementam.',
   },
 ]
 
@@ -41,7 +46,7 @@ export default function Method() {
           <FadeIn>
             <p
               className="uppercase tracking-[0.2em] text-[10px] md:text-xs mb-8 font-light"
-              style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.6 }}
+              style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.8 }}
             >
               Método
             </p>
@@ -60,7 +65,7 @@ export default function Method() {
             </h2>
             <p
               className="text-xl md:text-2xl leading-relaxed font-light max-w-2xl"
-              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.8 }}
+              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.9 }}
             >
               Eu não prometo cura milagrosa. A cura é um processo de busca mútua: eu entro com a técnica, você entra com a presença. O que eu posso garantir é que vou encontrar o que está travando e calibrar seu campo para que a vida volte a fluir.
             </p>
@@ -100,7 +105,7 @@ export default function Method() {
                   </h3>
                   <p
                     className="text-lg leading-relaxed font-light"
-                    style={{ color: 'var(--color-text)', opacity: 0.75 }}
+                    style={{ color: 'var(--color-text)', opacity: 0.9 }}
                   >
                     {pillar.text}
                   </p>
@@ -118,7 +123,7 @@ export default function Method() {
           >
             <p
               className="text-base md:text-lg leading-relaxed font-light"
-              style={{ color: 'var(--color-text)', opacity: 0.65 }}
+              style={{ color: 'var(--color-text)', opacity: 0.85 }}
             >
               Não prometo milagres. Não substituo tratamento médico. Não atendo terceiros sem autorização. Respeito absoluto ao seu livre-arbítrio. A transformação exige que você esteja presente e comprometida com o processo.
             </p>
@@ -130,7 +135,7 @@ export default function Method() {
           <div className="text-center mt-16">
             <p
               className="text-xl md:text-2xl italic font-light mb-8"
-              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.8 }}
+              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.9 }}
             >
               Por que eu escolhi esse caminho? Porque vivi a transformação primeiro.
             </p>

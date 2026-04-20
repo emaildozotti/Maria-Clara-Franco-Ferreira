@@ -182,7 +182,7 @@ export default function FAQ() {
               whileTap={{ scale: 0.98 }}
               className="btn-shimmer"
             >
-              Falar com Maria Clara
+              Falar com a Clara
             </motion.button>
           </div>
         </FadeIn>

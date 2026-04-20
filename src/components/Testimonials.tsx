@@ -7,17 +7,17 @@ import { FadeIn } from '../App'
 
 const testimonials = [
   {
-    text: 'Eu sentia que fazia tudo certo e nada mudava. Em dois meses de trabalho com Maria Clara, a escassez financeira que me acompanhava há anos começou a se dissolver. Não foi mágica. Foi técnica. Pela primeira vez, alguém me mostrou o que estava invisível.',
+    text: 'Eu sentia que fazia tudo certo e nada mudava. Em dois meses de trabalho com Clara, a escassez financeira que me acompanhava há anos começou a se dissolver. Não foi mágica. Foi técnica. Pela primeira vez, alguém me mostrou o que estava invisível.',
     name: 'Fernanda R.',
     role: 'Empresária, Rio de Janeiro',
   },
   {
-    text: 'Cheguei cética. Já tinha tentado reiki, constelação, terapia floral. Nada mudava de verdade. Maria Clara foi diferente. Me mostrou um número, me explicou o processo, me pediu presença. Em três meses, meus relacionamentos pararam de repetir o mesmo padrão.',
+    text: 'Cheguei cética. Já tinha tentado reiki, constelação, terapia floral. Nada mudava de verdade. Clara foi diferente. Me mostrou um número, me explicou o processo, me pediu presença. Em três meses, meus relacionamentos pararam de repetir o mesmo padrão.',
     name: 'Juliana M.',
     role: 'Professora, Campos dos Goytacazes',
   },
   {
-    text: 'O cansaço que eu sentia não era físico. Era do campo. Depois da primeira sessão de Radiônica com Maria Clara, acordei leve pela primeira vez em anos. Literalmente. Não é exagero. É o que acontece quando o campo é limpo.',
+    text: 'O cansaço que eu sentia não era físico. Era do campo. Depois da primeira sessão de Radiônica com Clara, acordei leve pela primeira vez em anos. Literalmente. Não é exagero. É o que acontece quando o campo é limpo.',
     name: 'Patrícia S.',
     role: 'Advogada, Macaé',
   }
