@@ -154,38 +154,6 @@ export default function FAQ() {
           </div>
         </div>
 
-        {/* Separador */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-[rgba(13,27,62,0.1)] to-transparent mb-24 md:mb-32" />
-
-        {/* CTA Final — scroll interno */}
-        <FadeIn delay={0.2} direction="up">
-          <div className="text-center max-w-3xl mx-auto">
-            <h3
-              className="leading-[1.1] mb-10 font-display"
-              style={{
-                fontSize: 'clamp(2.2rem, 5vw, 3.2rem)',
-                color: 'var(--color-text)',
-              }}
-            >
-              Sua realidade é um reflexo do seu campo.{' '}
-              <span className="italic block mt-2" style={{ color: 'var(--color-accent)' }}>
-                Vamos limpá-lo?
-              </span>
-            </h3>
-
-            <motion.button
-              onClick={() => {
-                const el = document.getElementById('footer')
-                if (el) el.scrollIntoView({ behavior: 'smooth' })
-              }}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.98 }}
-              className="btn-shimmer"
-            >
-              Falar com a Clara
-            </motion.button>
-          </div>
-        </FadeIn>
       </div>
     </section>
   )
