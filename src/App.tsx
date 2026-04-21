@@ -54,8 +54,8 @@ export default function App() {
       <VideoSection />
       <Method />
       <About />
-      <HowItWorks />
       <Testimonials />
+      <HowItWorks />
       <FAQ />
       <Footer />
     </main>
