@@ -65,7 +65,7 @@ export default function Method() {
             </h2>
             <p
               className="text-xl md:text-2xl leading-relaxed font-light max-w-2xl"
-              style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)', opacity: 0.9 }}
+              style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.9 }}
             >
               Eu não prometo cura milagrosa. A cura é um processo de busca mútua: eu entro com a técnica, você entra com a presença. O que eu posso garantir é que vou encontrar o que está travando e calibrar seu campo para que a vida volte a fluir.
             </p>

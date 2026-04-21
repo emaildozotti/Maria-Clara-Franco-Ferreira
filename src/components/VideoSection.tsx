@@ -23,7 +23,7 @@ export default function VideoSection() {
           <p
             className="text-xl md:text-2xl leading-relaxed font-light"
             style={{
-              fontFamily: 'var(--font-sub)',
+              fontFamily: 'var(--font-sans)',
               color: 'var(--color-bg-light)',
               opacity: 0.9
             }}
@@ -59,9 +59,9 @@ export default function VideoSection() {
         {/* Âncora pós-vídeo */}
         <FadeIn delay={0.4} className="max-w-xl mt-16">
           <p
-            className="text-lg md:text-xl leading-relaxed font-light italic"
+            className="text-lg md:text-xl leading-relaxed font-light"
             style={{
-              fontFamily: 'var(--font-sub)',
+              fontFamily: 'var(--font-sans)',
               color: 'var(--color-bg-light)',
               opacity: 0.7
             }}

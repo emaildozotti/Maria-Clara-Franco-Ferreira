@@ -117,7 +117,7 @@ export default function FAQ() {
             <FadeIn>
               <p
                 className="uppercase tracking-[0.25em] text-[10px] md:text-xs mb-6 font-light"
-                style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.5 }}
+                style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)', opacity: 0.7 }}
               >
                 Esclarecimentos
               </p>

@@ -88,7 +88,7 @@ export default function PainPoints() {
                   </span>
                   <p
                     className="text-xl md:text-2xl leading-relaxed font-normal"
-                    style={{ fontFamily: 'var(--font-sub)', color: 'var(--color-text)' }}
+                    style={{ fontFamily: 'var(--font-sans)', color: 'var(--color-text)' }}
                   >
                     {pain.text}
                   </p>

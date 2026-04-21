@@ -93,7 +93,7 @@ export default function Testimonials() {
                 <p
                   className="text-xl md:text-3xl leading-relaxed mb-10 font-light"
                   style={{
-                    fontFamily: 'var(--font-sub)',
+                    fontFamily: 'var(--font-sans)',
                     color: 'var(--color-bg-light)',
                     opacity: 0.95
                   }}

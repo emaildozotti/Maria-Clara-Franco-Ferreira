@@ -142,7 +142,7 @@ export default function Hero() {
               }}
             >
               Relacionamentos que afundam, dinheiro que some, sonhos que travam no último minuto. Não é azar. Tem{' '}
-              <span style={{ color: '#FFBD59', fontStyle: 'italic' }}>algo invisível</span>{' '}
+              <span style={{ color: '#FFBD59' }}>algo invisível</span>{' '}
               no seu caminho, e eu sei exatamente o que é.
             </p>
           </FadeIn>
