@@ -50,13 +50,14 @@ export default function About() {
 
               {/* Citação editorial */}
               <blockquote
-                className="pl-6 italic font-light mb-10"
+                className="pl-6 font-normal mb-10"
                 style={{
-                  fontFamily: 'var(--font-display)',
-                  fontSize: 'clamp(1.2rem, 2.5vw, 1.6rem)',
+                  fontFamily: 'var(--font-sans)',
+                  fontSize: 'clamp(1.15rem, 2.5vw, 1.5rem)',
                   color: 'var(--color-text)',
                   borderLeft: '2px solid var(--color-accent)',
-                  lineHeight: 1.4,
+                  lineHeight: 1.6,
+                  opacity: 0.9,
                 }}
               >
                 "Só você pode transformar sua realidade. Eu te ajudo a tornar o invisível, visível."
