@@ -19,7 +19,7 @@
 
   /* Fontes - Tipografia Editorial */
   --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-sub: "Cormorant Garamond", Georgia, serif;
+  --font-sub: "Inter", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
 }
 

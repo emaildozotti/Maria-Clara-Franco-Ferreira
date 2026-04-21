@@ -47,7 +47,7 @@ function FAQItem({ faq, isOpen, onToggle }: {
         <span
           className="text-xl md:text-2xl font-light leading-snug group-hover:opacity-100 transition-opacity"
           style={{
-            fontFamily: 'var(--font-display)',
+            fontFamily: 'var(--font-sans)',
             color: 'var(--color-text)',
             opacity: isOpen ? 1 : 0.85
           }}
